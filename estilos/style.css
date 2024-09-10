@@ -57,4 +57,75 @@ div#formu > h1{
 }
 div#formu > p{
     font-size: 0.8em;
+    text-align: center;
+}
+form > div.campo{
+    background-color: #594636;
+    border: 2px solid #594636;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.623);
+}
+div.campo > label{
+    display: none;
+}
+div.campo > i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input{
+    background-color: #8a9397;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    position: relative;
+    left: 43px;
+    transform: translateY(-42px); 
+}
+div.campo > input:focus-within{
+    background-color: white;
+    border: none;
+}
+form > input[type=submit]{
+    display: block;
+    font: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #8a9397;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.623);
+}
+form > input[type=submit]:hover{
+    background-color: #414647;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid #AEBABF;
+    text-decoration: none;
+    color: #0D0202;
+    border-radius: 7px;
+    padding-top: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.623);
+}
+form > a.botao:hover{
+    background-color: #594636;
+}
+form > a.botao > i{
+    font-size: 0.8em;
 }
